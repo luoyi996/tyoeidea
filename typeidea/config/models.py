@@ -24,7 +24,7 @@ class Link(models.Model):
         verbose_name = verbose_name_plural = "友链"
 
 
-class SidBar(models.Model):
+class SideBar(models.Model):
     STATUS_SHOW = 1
     STATUS_HIDE = 0
     STATUS_ITEMS = (
